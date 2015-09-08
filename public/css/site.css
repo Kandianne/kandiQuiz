@@ -1,0 +1,42 @@
+body {
+	margin: auto;
+	text-align: center;
+}
+
+
+p {	
+	text-align: left;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+input, label {
+	font-size: 1em;
+}
+
+#options {
+	margin: 3em auto;
+	width: 190px;
+
+}
+
+#quiz {
+	margin-top: 9em;
+}
+
+#testScore {
+	margin-top: 1em;
+	font-weight: bold;
+	font-size: 3em;
+}
+
+#testScore p{
+	font-size: .3em;
+	text-align: center;
+}
+
+#submitBut {
+	margin-bottom: 3em;
+}

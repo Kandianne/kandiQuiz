@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<title>knowkandi</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap_theme.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/site.css">
+</head>
+<body>
+	<h1 class="jumbotron">Do you know me?</h1>
+	<button id="beginQuiz" class="btn btn-success" onclick="startQuiz()">Take Quiz to Find Out</button>
+
+	<div id="quiz">
+		
+		<h3 id="question"></h3>
+		<div id="options">
+			<p><input type="radio" class="q0" name="correctAnswer" /><label class="label0"></label></p>
+
+			<p><input type="radio" class="q1" name="correctAnswer" /><label class="label1"></label></p>
+
+			<p><input type="radio" class="q2" name="correctAnswer" /><label class="label2"></label></p>
+
+			<p><input type="radio" class="q3" name="correctAnswer" /><label class="label3"></label></p>
+
+		</div>
+		<button id="submitBut" onclick="submitAnswer()" class="btn btn-warning">Submit and Next Question</button>
+		<button id="getGrade" class="btn btn-info" onclick="getGrade()">Get Grade</button>
+
+		<div class="jumbotron" id="testScore">
+			<p>Answer 1: Kandianne Margaret  Pierre</p>
+			<p>Answer 2: Trinidad</p>
+			<p>Answer 3: iPhone 4</p>
+			<p>Answer 4: Tesla</p>
+			<p>Answer 5: All of the above</p>
+		</div>
+
+		
+
+	</div>
+
+	<script src="jquery/dist/jquery.js"></script>
+	<script src="/javascript/app.js"></script>
+</body>
+</html>
